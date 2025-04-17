@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>js</title>
+    <meta charset="utf-8" />
+    <title>METANIT.COM</title>
 </head>
 <body>
-    <button onclick="openWindow()">Click</button>
-    <script src="index.js"></script>
+<script>
+fetch(https://catfact.ninja/fact"")
+    .then(response => {
+        console.log(response.status);       // 200
+        console.log(response.statusText);   // OK
+        console.log(response.url);          // http://localhost:3000/hello
+    });
+</script>
 </body>
 </html>
